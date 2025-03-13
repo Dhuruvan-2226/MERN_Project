@@ -1,0 +1,105 @@
+body {
+    font-family: Arial, sans-serif;
+    background: #00bfff;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+  }
+  
+  .groups-container {
+    text-align: center;
+    flex: 1;
+  }
+  
+  .navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: linear-gradient(to right, #0074cc, #00bfff);
+    padding: 10px 20px;
+  }
+  
+  .logo {
+    font-size: 20px;
+    font-weight: bold;
+    color: black;
+  }
+  
+  nav a {
+    margin: 0 10px;
+    color: black;
+    font-weight: bold;
+    text-decoration: none;
+  }
+  
+  .section-title, .sub-title {
+    font-weight: bold;
+    font-style: italic;
+    font-size: 18px;
+  }
+  
+  .table-container {
+    display: flex;
+    justify-content: center;
+    margin: 20px 0;
+    width: 100%;
+  }
+  
+  table {
+    width: 95%;
+    height: 250px;
+    border-collapse: collapse;
+    border-radius: 10px;
+    overflow: hidden;
+    font-size: 18px;
+  }
+  
+  th, td {
+    border: 3px solid black;
+    padding: 12px;
+    text-align: center;
+    font-weight: bold;
+    font-style: italic;
+  }
+  
+  .dropdown-container {
+    margin: 10px 0;
+  }
+  
+  select {
+    padding: 10px;
+    border-radius: 20px !important; 
+    border: 2px solid black; 
+    font-weight: bold;
+    background-color: white;
+}
+td {
+  margin-top: 5px;
+  vertical-align: top;
+}
+  
+  .footer {
+    background: black;
+    color: white;
+    padding: 10px 0;
+    display: flex;
+    justify-content: space-between;
+    font-size: 12px;
+    width: 100%;
+    position: relative;
+    bottom: 0;
+    margin-top: auto;
+  }
+  
+  .footer-section {
+    padding: 8px;
+  }
+  
+  .footer-bottom {
+    text-align: center;
+    width: 100%;
+    padding-top: 5px;
+  }
+  

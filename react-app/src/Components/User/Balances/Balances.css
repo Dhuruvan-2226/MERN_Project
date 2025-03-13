@@ -1,0 +1,203 @@
+/* General Page Styling */
+.balances-container {
+    font-family: Arial, sans-serif;
+    background: #00bfff;
+    color: black;
+    text-align: center;
+    padding-bottom: 50px;
+    font-weight: bold;
+  }
+  
+  /* Navbar */
+  .navbarss {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: black;
+    padding: 10px 20px;
+    color: white;
+  }
+  
+  .logoss {
+    font-size: 20px;
+  }
+  
+  .navbarss ul {
+    display: flex;
+    list-style: none;
+    gap: 20px;
+  }
+  
+  .navbarss ul li a {
+    text-decoration: none;
+    color:white;
+  }
+  
+  .navbarss ul li a:hover {
+    color: #ffcc00;
+  }
+  
+  /* Header */
+  .balances-header {
+    margin: 20px 0;
+    font-size: 24px;
+  }
+  
+  /* Group Selection */
+  .group-text {
+    font-size: 18px;
+  }
+  
+  .group-dropdown {
+    padding: 10px;
+    font-size: 16px;
+    border-radius: 20px;
+    border: none;
+    background: lightgray;
+  }
+  
+  /* Expenses Table */
+  .expense-table {
+    width: 90%;
+    margin: 20px auto;
+    border-collapse: separate;
+    border-spacing: 0;
+    border-radius: 15px;
+    overflow: hidden;
+    background: white;
+  }
+  
+  .expense-table th, .expense-table td {
+    border: 2px solid black;
+    padding: 10px;
+    text-align: center;
+  }
+  
+  /* Table Header */
+  .expense-table th:first-child {
+    border-top-left-radius: 15px;
+  }
+  
+  .expense-table th:last-child {
+    border-top-right-radius: 15px;
+  }
+  
+  .expense-table tr:last-child td:first-child {
+    border-bottom-left-radius: 15px;
+  }
+  
+  .expense-table tr:last-child td:last-child {
+    border-bottom-right-radius: 15px;
+  }
+  
+  /* Dropdowns in Table */
+  /* .table-dropdown {
+    padding: 8px;
+    font-size: 14px;
+    border-radius: 10px;
+    border: none;
+    background: lightgray;
+  } */
+  
+  /* Notification */
+  .notification-text {
+    margin: 20px 0;
+  }
+  
+  /* Save Button */
+  .save-button {
+    padding: 10px 20px;
+    font-size: 16px;
+    background: lightgray;
+    border: none;
+    border-radius: 20px;
+    margin-top: 20px;
+    cursor: pointer;
+  }
+  
+  /* Footer */
+  /* .footer {
+    background: black;
+    color: white;
+    padding: 20px;
+    position: relative;
+    width: 100%;
+    bottom: 0;
+  }
+  
+  .footer-content {
+    display: flex;
+    justify-content: space-between;
+    text-align: left;
+  }
+  
+  .footer-section {
+    width: 40%;
+  }
+  
+  .footer-section h3 {
+    font-size: 18px;
+  }
+  
+  .center {
+    text-align: center;
+  }
+  
+  .copyright {
+    text-align: center;
+    margin-top: 10px;
+    font-size: 14px;
+  }
+   */
+   .formss-container {
+    background-color: #00bcd4;
+    border: 3px solid black;
+    padding: 20px;
+    width: 350px;
+    margin: 50px auto;
+    border-radius: 15px;
+    box-shadow: 5px 5px 10px black;
+  }
+  
+  label {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 15px;
+  }
+  
+  span {
+    font-style: italic;
+    font-weight: bold;
+  }
+  
+  input, select {
+    font-size: 16px;
+    padding: 5px;
+    border: 2px solid black;
+    border-radius: 20px;
+    outline: none;
+  }
+  
+  select {
+    cursor: pointer;
+  }
+  
+  .buttonsss {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+  }
+  
+  button {
+    font-size: 16px;
+    padding: 5px 15px;
+    border-radius: 20px;
+    border: 2px solid black;
+    box-shadow: 3px 3px 5px black;
+    cursor: pointer;
+    background-color: white;
+  }
+  
+  button:hover {
+    background-color: lightgray;
+  }

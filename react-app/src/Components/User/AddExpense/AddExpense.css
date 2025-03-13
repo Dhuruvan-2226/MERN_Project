@@ -1,0 +1,220 @@
+/* General Styles */ 
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.add-expense-page {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  background: #00bfff;
+  color: black;
+  font-family: Arial, sans-serif;
+  text-align: center;
+}
+
+/* Navbar */
+.navbars {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: black;
+  padding: 10px 20px;
+}
+
+.logos {
+  color: white;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.navbars ul {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+}
+
+.navbars ul li a {
+  color: white;
+  text-decoration: none;
+  font-size: 16px;
+}
+
+.navbars ul li a:hover {
+  color: #d4ad00;
+}
+
+/* Main Content */
+.main-content {
+  flex: 1;
+}
+
+/* Header */
+.title {
+  font-size: 24px;
+  margin-top: 20px;
+}
+
+/* Group Selection */
+.group-selection {
+  margin: 20px 0;
+  font-size: 18px;
+}
+
+.dropdown {
+  background: white;
+  padding: 10px;
+  border-radius: 20px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+/* Expense Section */
+.expense-section {
+  margin: 20px 10%;
+  text-align: left;
+}
+
+/* Expense Table */
+.expense-table {
+  width: 100%;
+  border-collapse: separate;
+  border-spacing: 0;
+  margin-top: 10px;
+  background: #00bcd4;
+  border-radius: 15px;
+  overflow: hidden;
+  border: 2px solid black;
+}
+
+.expense-table th, .expense-table td {
+  border: 2px solid black;
+  padding: 10px;
+  text-align: center;
+}
+
+/* Curved Edges for Table */
+.expense-table th:first-child {
+  border-top-left-radius: 15px;
+}
+
+.expense-table th:last-child {
+  border-top-right-radius: 15px;
+}
+
+.expense-table tr:last-child td:first-child {
+  border-bottom-left-radius: 15px;
+}
+
+.expense-table tr:last-child td:last-child {
+  border-bottom-right-radius: 15px;
+}
+
+
+/* Buttons */
+.buttons {
+  margin: 20px;
+}
+
+.btn {
+  background: white;
+  padding: 10px 20px;
+  border-radius: 20px;
+  font-size: 16px;
+  font-weight: bold;
+  cursor: pointer;
+  border: none;
+  margin: 5px;
+}
+
+.btn:hover {
+  background: #b0afaf;
+}
+
+/* Footer */
+.footer {
+  background-color: black;
+  color: white;
+  padding: 20px;
+  margin-top: auto;
+}
+
+.footer-content {
+  display: flex;
+  justify-content: space-between;
+  padding: 0 10%;
+}
+
+.contact-section, .social-media {
+  text-align: left;
+}
+
+.contact-section h3, .social-media h3 {
+  font-size: 20px;
+}
+
+.contact-section p, .social-media p {
+  font-size: 16px;
+}
+
+/* Copyright at Bottom */
+.copyright {
+  text-align: center;
+  margin-top: 20px;
+  font-size: 14px;
+}
+
+.form-container {
+  background-color: #00bcd4;
+  border: 3px solid black;
+  padding: 20px;
+  width: 350px;
+  margin: 50px auto;
+  border-radius: 15px;
+  box-shadow: 5px 5px 10px black;
+}
+
+label {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 15px;
+}
+
+span {
+  font-style: italic;
+  font-weight: bold;
+}
+
+input, textarea {
+  font-size: 16px;
+  padding: 5px;
+  border: 2px solid black;
+  border-radius: 20px;
+  outline: none;
+}
+
+textarea {
+  height: 70px;
+  resize: none;
+}
+
+.buttonss {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
+
+button {
+  font-size: 16px;
+  padding: 5px 15px;
+  border-radius: 20px;
+  border: 2px solid black;
+  box-shadow: 3px 3px 5px black;
+  cursor: pointer;
+  background-color: white;
+}
+
+button:hover {
+  background-color: lightgray;
+}

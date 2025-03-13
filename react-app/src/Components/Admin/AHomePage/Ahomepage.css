@@ -1,0 +1,128 @@
+/* General Styles */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #F0F8FF;
+}
+
+.homepage {
+  text-align: center;
+}
+
+/* Navbar */
+.navi {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 30px;
+  background-color: black;
+  color: white;
+}
+
+.navi ul {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+}
+
+.navi ul li a {
+  color: white;
+  text-decoration: none;
+  font-size: 18px;
+  font-weight: bold;
+  transition: color 0.3s ease-in-out;
+}
+
+.navi ul li a:hover {
+  color: #ffcc00;
+}
+
+/* Section Styles */
+.section {
+  padding: 50px;
+  background-color: #00C8FF;
+  text-align: center;
+}
+
+.section-content {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  max-width: 900px;
+  margin: auto;
+  gap: 50px;
+}
+
+.section-content.reverse {
+  flex-direction: row-reverse;
+}
+
+.section-image {
+  width: 150px;
+  height: auto;
+}
+
+.text {
+  max-width: 500px;
+  text-align: left;
+}
+
+h3 {
+  font-size: 26px;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+p {
+  font-size: 18px;
+  line-height: 1.6;
+}
+
+/* Hero Section */
+.hero {
+  background-color: #00C8FF;
+  padding: 50px;
+}
+
+/* ✅ Proper White Separator Line */
+.separator {
+  width: 80%;
+  margin: 0 auto;
+  border-top: 2px solid white;
+}
+
+/* Footer */
+.footer {
+  background-color: black;
+  color: white;
+  padding: 20px;
+  text-align: center;
+}
+
+.footer-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  max-width: 900px;
+  margin: auto;
+}
+
+.footer-content div {
+  flex: 1;
+  text-align: center;
+}
+
+.footer-content div:first-child {
+  text-align: left;
+}
+
+.footer-content div:last-child {
+  text-align: center;
+}
+
+.copyright {
+  margin-top: 10px;
+  font-size: 16px;
+}

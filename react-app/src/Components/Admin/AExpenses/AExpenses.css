@@ -1,0 +1,152 @@
+/* Main Container */
+.add-expense-container {
+    font-family: Arial, sans-serif;
+    background: #00bfff;
+    color: black;
+    text-align: center;
+    font-weight: bold;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+  }
+  .navibar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: black;
+    padding: 10px 20px;
+  }
+  
+  .topics {
+    color: white;
+    font-size: 24px;
+    font-weight: bold;
+  }
+  
+  .navibar ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+  }
+  
+  .navibar ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+  }
+  
+  .navibar ul li a:hover {
+    color: #d4ad00;
+  }
+  
+  /* Content */
+  .content {
+    flex: 1;
+    padding: 20px;
+    margin-bottom: 50px; /* Prevent footer from blocking content */
+  }
+  
+  /* Table */
+  .expense-table {
+    width: 80%;
+    margin: 20px auto;
+    border-collapse: collapse;
+    border: 5px solid black;
+    background: white;
+    outline: 5px solid black;
+  }
+  
+  .expense-table th, .expense-table td {
+    padding: 10px;
+    border: 5px solid black; /* Fully touching column borders */
+    text-align: center;
+  }
+  
+  .expense-table th {
+    background: lightgray;
+  }
+  
+  /* Buttons */
+  .buttons button {
+    padding: 10px 20px;
+    font-size: 14px;
+    border-radius: 20px;
+    border: 3px solid black;
+    background: lightgray;
+    font-weight: bold;
+    cursor: pointer;
+    outline: 3px solid black;
+    justify-content: flex-end;
+    gap: 15px;
+  }
+  
+  .buttons button:hover {
+    background: #ffcc00;
+    color: black;
+  }
+  .form-container {
+    background-color: #00bcd4;
+    border: 3px solid black;
+    padding: 20px;
+    width: 350px;
+    margin: 50px auto;
+    border-radius: 15px;
+    box-shadow: 5px 5px 10px black;
+  }
+  
+  label {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 15px;
+  }
+  
+  span {
+    font-style: italic;
+    font-weight: bold;
+  }
+  
+  input, textarea {
+    font-size: 16px;
+    padding: 5px;
+    border: 2px solid black;
+    border-radius: 20px;
+    outline: none;
+  }
+  
+  textarea {
+    height: 70px;
+    resize: none;
+  }
+  
+  .buttonss {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+  }
+  
+  button {
+    font-size: 16px;
+    padding: 5px 15px;
+    border-radius: 20px;
+    border: 2px solid black;
+    box-shadow: 3px 3px 5px black;
+    cursor: pointer;
+    background-color: white;
+  }
+  
+  button:hover {
+    background-color: lightgray;
+  }
+  /* Footer */
+  /* .footer {
+    background: black;
+    color: white;
+    padding: 10px 0;
+    font-size: 12px;
+    text-align: center;
+    border-top: 5px solid black;
+    position: relative; 
+    width: 100%;
+    margin-top: auto; 
+  } */
+  

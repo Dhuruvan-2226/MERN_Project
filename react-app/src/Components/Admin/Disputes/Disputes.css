@@ -1,0 +1,127 @@
+body {
+    font-family: Arial, sans-serif;
+    background: #00bfff;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+.container {
+    text-align: center;
+    flex: 1;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: linear-gradient(to right, #0074cc, #00bfff);
+    padding: 10px 20px;
+}
+
+.logo {
+    font-size: 20px;
+    font-weight: bold;
+    color: black;
+}
+
+nav a {
+    margin: 0 10px;
+    color: black;
+    font-weight: bold;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+nav a:hover {
+    color: gold;
+}
+
+.title {
+    font-weight: bold;
+    font-style: italic;
+    font-size: 22px;
+}
+
+.sub-title {
+    font-weight: bold;
+    font-style: italic;
+    font-size: 18px;
+}
+
+.payment-info {
+    font-weight: bold;
+    font-size: 16px;
+    margin: 10px 0;
+}
+
+.box {
+    width: 80%;
+    margin: 20px auto;
+    padding: 15px;
+    border: 3px solid black;
+    background: #00bfff;
+    font-weight: bold;
+    font-style: italic;
+}
+
+.send-button {
+    padding: 10px 15px;
+    font-weight: bold;
+    background-color: white;
+    border: 2px solid black;
+    cursor: pointer;
+    transition: background 0.3s ease, color 0.3s ease;
+    border-radius: 20px;
+    margin-top: 10px;
+}
+
+.send-button:hover {
+    background-color: black;
+    color: white;
+}
+
+.table-container {
+    display: flex;
+    justify-content: center;
+    margin: 20px 0;
+}
+
+table {
+    width: 95%;
+    border-collapse: collapse;
+    border-radius: 10px;
+    overflow: hidden;
+    font-size: 18px;
+}
+
+th, td {
+    border: 3px solid black;
+    padding: 12px;
+    text-align: center;
+    font-weight: bold;
+    font-style: italic;
+}
+
+.footer {
+    background: black;
+    color: white;
+    padding: 20px 0;
+    display: flex;
+    justify-content: space-around;
+    font-size: 14px;
+    width: 100%;
+    margin-top: auto;
+}
+
+.social-media {
+    text-align: center;
+}
+
+.footer-bottom {
+    text-align: center;
+    width: 100%;
+    padding: 10px 0;
+}
